@@ -282,24 +282,29 @@
                     <h1 class="margin-top-0 wow text-primary fadeIn">Contactez-nous</h1>
                     <hr class="primary">
                     <p>Merci de nous laisser un message</p>
+                    <p><small>Nous n'utiliseront pas votre adresse mail à des fin malhonnete</small></p>
                 </div>
                 <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <form class="contact-form row">
+                    <form class="contact-form row" action="contact.php" method="post">
                         <div class="col-md-4">
                             <label></label>
-                            <input type="text" class="form-control" placeholder="Name">
+                            <input type="text" class="form-control" placeholder="Name" name="name">
                         </div>
                         <div class="col-md-4">
                             <label></label>
-                            <input type="text" class="form-control" placeholder="Email">
+                            <input type="text" class="form-control" placeholder="Email" name="email">
+                        </div>
+                        <div class="col-md-4">
+                            <label></label>
+                            <input type="text" class="form-control" placeholder="Sujet" name="subject">
                         </div>
                         <div class="col-md-12">
                             <label></label>
-                            <textarea class="form-control" rows="9" placeholder="Your message here.."></textarea>
+                            <textarea class="form-control" rows="9" placeholder="Your message here.." name="text"></textarea>
                         </div>
                         <div class="col-md-4 col-md-offset-4">
                             <label></label>
-                            <button type="button" data-toggle="modal" data-target="#alertModal" class="btn btn-primary btn-block btn-lg">Send <i class="ion-android-arrow-forward"></i></button>
+                            <button type="submit" data-toggle="modal" data-target="#alertModal" class="btn btn-primary btn-block btn-lg" name="send">Send <i class="ion-android-arrow-forward"></i></button>
                         </div>
                     </form>
                 </div>
