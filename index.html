@@ -6,7 +6,8 @@
     <meta name="description" content="Competition de developement mobile inter-CGEP et inter-université" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="generator" content="Codeply">
-      <link rel="icon" type="image/png" href="logo.ico" />
+
+      <link rel="icon" type="image/png" href="img/logo.ico" />
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" />
     <link href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="//code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" />
@@ -44,12 +45,16 @@
                         <a class="page-scroll" href="#four">Nos chiffres</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#last">Contactez-nous</a>
+                        <a class="page-scroll" href="#last">Partenaires</a>
                     </li>
+
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a class="page-scroll" data-toggle="modal" title="A free Bootstrap video landing theme" href="#aboutModal">About</a>
+                        <a class="page-scroll" data-toggle="modal" title="Contactez-nous" href="#contact">Contactez-nous</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" data-toggle="modal" title="ABout AMC" href="#aboutModal">A propos</a>
                     </li>
                 </ul>
             </div>
@@ -67,8 +72,8 @@
                     <h1 class="message"></h1>
                 </div>
                 <hr>
-                <a href="#video-background" id="toggleVideo" data-toggle="collapse" class="btn btn-primary btn-xl">Toggle Video</a> &nbsp;
-                <a href="#one" class="btn btn-primary btn-xl page-scroll">Get Started</a>
+                <!-- a href="#video-background" id="toggleVideo" data-toggle="collapse" class="btn btn-primary btn-xl">Toggle Video</a> &nbsp;
+                <a href="#one" class="btn btn-primary btn-xl page-scroll">Commencer</a-->
 
             </div>
 
@@ -89,7 +94,7 @@
                         Scironis praerupta letalia declinantes litoribus Cypriis contigui navigabant, quae Isauriae
                         scopulis sunt controversa.
                     </p>
-                    <a href="#three" class="btn btn-default btn-xl page-scroll">Learn More</a>
+                    <a class="btn btn-default btn-xl page-scroll" data-toggle="modal" title="A free Bootstrap video landing theme" href="#aboutModal">Plus</a>
                 </div>
             </div>
         </div>
@@ -135,7 +140,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h1 class="margin-top-0 text-primary cursive">Nos Objectifs</h1>
+                    <h1 class="margin-top-0 text-primary cursive">Derniere édition</h1>
                     <hr class="primary">
                 </div>
             </div>
@@ -230,25 +235,28 @@
         <div class="row">
             <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-4">
 
-                <div class="col-md-4 col-sm-6">
+                <div class="col-md-4 col-sm-6 bloc-circle">
                     <div class="bloc-chiffre">
                         <h3>Inscription</h3>
+                        <div class="circle">30</div>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-6">
+                <div class="col-md-4 col-sm-6 bloc-circle">
                     <div class="bloc-chiffre">
                         <h3>Participants</h3>
+                        <div class="circle">30</div>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-6">
+                <div class="col-md-4 col-sm-6  bloc-circle">
                     <div class="bloc-chiffre">
                         <h3>Prix</h3>
+                        <div class="circle">30</div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <aside class="bg-dark">
+    <section id="last">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -274,42 +282,6 @@
 
             </div>
         </div>
-    </aside>
-    <section id="last">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h1 class="margin-top-0 wow text-primary fadeIn">Contactez-nous</h1>
-                    <hr class="primary">
-                    <p>Merci de nous laisser un message</p>
-                    <p><small>Nous n'utiliseront pas votre adresse mail à des fin malhonnete</small></p>
-                </div>
-                <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <form class="contact-form row" action="contact.php" method="post">
-                        <div class="col-md-4">
-                            <label></label>
-                            <input type="text" class="form-control" placeholder="Name" name="name">
-                        </div>
-                        <div class="col-md-4">
-                            <label></label>
-                            <input type="text" class="form-control" placeholder="Email" name="email">
-                        </div>
-                        <div class="col-md-4">
-                            <label></label>
-                            <input type="text" class="form-control" placeholder="Sujet" name="subject">
-                        </div>
-                        <div class="col-md-12">
-                            <label></label>
-                            <textarea class="form-control" rows="9" placeholder="Your message here.." name="text"></textarea>
-                        </div>
-                        <div class="col-md-4 col-md-offset-4">
-                            <label></label>
-                            <button type="submit" data-toggle="modal" data-target="#alertModal" class="btn btn-primary btn-block btn-lg" name="send">Send <i class="ion-android-arrow-forward"></i></button>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
     </section>
     <footer id="footer">
         <div class="container-fluid">
@@ -317,7 +289,7 @@
 
                 <div class="pull-right">
                     <ul class="list-inline">
-                      <li><a rel="nofollow" href="www.twitter.com/clubapplets" title="Twitter"><i class="icon-lg ion-social-twitter-outline"></i></a>&nbsp;</li>
+                      <li><a rel="nofollow" href="https://www.youtube.com/channel/UCObRzDT1fpP81NZpbXxni1Q" title="Youtube"><i class="icon-lg ion-social-youtube-outline"></i></a>&nbsp;</li>
                       <li><a rel="nofollow" href="www.facebook.com/ClubApplETS" title="Facebook"><i class="icon-lg ion-social-facebook-outline"></i></a>&nbsp;</li>
                     </ul>
                 </div>
@@ -347,6 +319,7 @@
         		<h5 class="text-center">
         		    Applet Mobile Challenge
         		</h5>
+                <hr class="primary">
         		<p class="text-justify">
                     Utque proeliorum periti rectores primo catervas densas opponunt et fortes, deinde leves armaturas,
                     post iaculatores ultimasque subsidiales acies, si fors adegerit, iuvaturas, ita praepositis urbanae
@@ -365,15 +338,20 @@
         </div>
         </div>
     </div>
-    <div id="alertModal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+    <div id="contact" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog modal-sm">
         <div class="modal-content">
         	<div class="modal-body">
-        		<h2 class="text-center">Nice Job!</h2>
-        		<p class="text-center">You clicked the button, but it doesn't actually go anywhere because this is only a demo.</p>
-        		<p class="text-center"><a href="http://www.bootstrapzero.com">Learn more at BootstrapZero</a></p>
-        		<br/>
-        		<button class="btn btn-primary btn-lg center-block" data-dismiss="modal" aria-hidden="true">OK <i class="ion-android-close"></i></button>
+        		<h2 class="text-center">Contactez-nous</h2>
+                <hr class="primary">
+                <dl>
+                    <dt>Telephone</dt>
+                    <dd>514-333-2456 (687)</dd>
+                    <dt>Email</dt>
+                    <dd>amccompetition@gmail.com</dd>
+                    <dt>Adresse</dt>
+                    <dd>1100 rue Notre Dame Ouest</dd>
+                </dl>
         	</div>
         </div>
         </div>

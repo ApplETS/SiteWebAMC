@@ -235,8 +235,17 @@ hr.small {
     }
 }
 
+/** contact **/
+#last{
+    background-image: url('../img/background_bleu.jpg');
+}
+
 /* Footer */
 
 footer {
     padding: 100px 0;
+}
+
+#copiright{
+    text-align: center;
 }
