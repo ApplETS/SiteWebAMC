@@ -2,14 +2,15 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>ApplETS Mobile Challenge</title>
+    <title>Applet Mobile Challenge</title>
     <meta name="description" content="Competition de developement mobile inter-CGEP et inter-université" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="generator" content="Codeply">
-      <link rel="icon" type="image/png" href="logo.ico" />
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" />
-    <link href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" rel="stylesheet" />
-    <link rel="stylesheet" href="//code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" />
+
+      <link rel="icon" type="image/png" href="img/logo.ico" />
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" />
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" />
     <link rel="stylesheet" href="css/flipclock.css" />
     <link rel="stylesheet" href="css/styles.css" />
   </head>
@@ -25,7 +26,7 @@
                 </button>
                 <a class="navbar-brand page-scroll" href="#first"/>
                     <img src="img/logo.png" id="logo" class="hidden-xs">
-                    <span class="hidden-xs">ApplETS Mobile Challenge</span>
+                    <span class="hidden-xs">Applet Mobile Challenge</span>
                     <span class="visible-xs">AMC</span>
                 </a>
             </div>
@@ -44,12 +45,16 @@
                         <a class="page-scroll" href="#four">Nos chiffres</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#last">Contactez-nous</a>
+                        <a class="page-scroll" href="#last">Partenaires</a>
                     </li>
+
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a class="page-scroll" data-toggle="modal" title="A free Bootstrap video landing theme" href="#aboutModal">About</a>
+                        <a class="page-scroll" data-toggle="modal" title="Contactez-nous" href="#contact">Contactez-nous</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" data-toggle="modal" title="ABout AMC" href="#aboutModal">A propos</a>
                     </li>
                 </ul>
             </div>
@@ -59,16 +64,16 @@
         <div class="header-content">
             <div class="inner">
                 <h1 class="cursive">AMC</h1>
-                <h1 class="cursive">~ ApplETS Mobile Challenge ~</h1>
-                <h2 id="titre-clock" class="cursive">Prochaine édition</h2>
+                <h1 class="cursive">~ Applet Mobile Chalenge ~</h1>
+                <h2 id="titre-clock" class="cursive">Prochaine edition</h2>
                 <div id="clock">
 
                     <div class="clock" style="margin:2em;"></div>
                     <h1 class="message"></h1>
                 </div>
                 <hr>
-                <a href="#video-background" id="toggleVideo" data-toggle="collapse" class="btn btn-primary btn-xl">Toggle Video</a> &nbsp;
-                <a href="#one" class="btn btn-primary btn-xl page-scroll">Get Started</a>
+                <!-- a href="#video-background" id="toggleVideo" data-toggle="collapse" class="btn btn-primary btn-xl">Toggle Video</a> &nbsp;
+                <a href="#one" class="btn btn-primary btn-xl page-scroll">Commencer</a-->
 
             </div>
 
@@ -85,11 +90,12 @@
                     <h1 class="margin-top-0 text-primary cursive">AMC, C'est quoi?</h1>
                     <br>
                     <p class="text-faded">
-                        Cognitis enim pilatorum caesorumque funeribus nemo deinde ad has stationes appulit navem, sed ut
-                        Scironis praerupta letalia declinantes litoribus Cypriis contigui navigabant, quae Isauriae
-                        scopulis sunt controversa.
+                        L'ApplETS Mobile Chalenge (AMC) est une compétition organisée par le club étudiant ApplETS de l' école des technologies supérieures.
+                        Elle a été créée dans le but de promouvoir le développement d'application mobile et l'utilisation de l'open source. L'AMC met en
+                        compétition des équipes venant de plusieurs écoles (CEGEP, College, Université) et du monde professionnel.
+                        Tous étant dans des catégories en adéquation avec leur niveau de compétence.
                     </p>
-                    <a href="#three" class="btn btn-default btn-xl page-scroll">Learn More</a>
+                    <a class="btn btn-default btn-xl page-scroll" data-toggle="modal" title="A free Bootstrap video landing theme" href="#aboutModal">Plus</a>
                 </div>
             </div>
         </div>
@@ -110,21 +116,23 @@
                     <div class="feature">
                         <i class="icon-lg ion-android-laptop wow fadeIn" data-wow-delay=".3s"></i>
                         <h3>Competition</h3>
-                        <p class="text-muted">Your site looks good everywhere</p>
+                        <p class="text-muted">L'AMC apporte les joies de la compétition comme
+                        le fair-play et l'esprit d'équipe</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-4 text-center">
                     <div class="feature">
-                        <i class="icon-lg ion-social-sass wow fadeInUp" data-wow-delay=".2s"></i>
+                        <i class="icon-lg ion-ios-star-outline wow fadeInUp" data-wow-delay=".2s"></i>
                         <h3>Fun</h3>
-                        <p class="text-muted">Easy to theme and customize with SASS</p>
+                        <p class="text-muted">Les participants comme les organisateurs doivent passer
+                        un bon moment et s'amuser</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-4 text-center">
                     <div class="feature">
-                        <i class="icon-lg ion-ios-star-outline wow fadeIn" data-wow-delay=".3s"></i>
+                        <i class="icon-lg ion-person-stalker wow fadeIn" data-wow-delay=".3s"></i>
                         <h3>Esprit d'équipe</h3>
-                        <p class="text-muted">A mature, well-tested, stable codebase</p>
+                        <p class="text-muted">La compétition se passe en groupe pour favoriser le travail en équipe</p>
                     </div>
                 </div>
             </div>
@@ -135,8 +143,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h1 class="margin-top-0 text-primary cursive">Nos Objectifs</h1>
+                    <h1 class="margin-top-0 text-primary cursive">Derniere édition</h1>
                     <hr class="primary">
+                    <p>Quelques images <a href="#">Voir plus</a></p>
                 </div>
             </div>
         </div>
@@ -223,32 +232,35 @@
                 <div class="col-lg-12 text-center">
                     <h1 class="margin-top-0 text-primary fadeIn wow cursive">Des chiffres et des chiffres</h1>
                     <hr class="primary">
-                    <p>Ils s'agit ici de vous presenter la derniere edition en quelques chiffres</p>
+                    <p>Derniere edition en quelques chiffres</p>
                 </div>
             </div>
         </div>
         <div class="row">
             <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-4">
 
-                <div class="col-md-4 col-sm-6">
+                <div class="col-md-4 col-sm-6 bloc-circle">
                     <div class="bloc-chiffre">
                         <h3>Inscription</h3>
+                        <div class="circle">30</div>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-6">
+                <div class="col-md-4 col-sm-6 bloc-circle">
                     <div class="bloc-chiffre">
                         <h3>Participants</h3>
+                        <div class="circle">30</div>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-6">
+                <div class="col-md-4 col-sm-6  bloc-circle">
                     <div class="bloc-chiffre">
                         <h3>Prix</h3>
+                        <div class="circle">30</div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <aside class="bg-dark">
+    <section id="last">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -261,52 +273,17 @@
             <div class="row">
                 <table>
                     <tr>
-                        <td><img src="img/partenaires/applets.png" width="90%"></td>
-                        <td><img src="img/partenaires/aeets.png" width="50%"></td>
-                        <td><img src="img/partenaires/bell.png" width="40%"></td>
+                        <td><a href="https://clubapplets.ca/"></a><img src="img/partenaires/applets.png" width="90%"></td>
+                        <td><a href="http://aeets.com/"><img src="img/partenaires/aeets.png" width="150%"></a></td>
+                        <td><a href="https://www.etsmtl.ca/"></a><img src="img/partenaires/ets.png" width="40%"></td>
                     </tr>
                     <tr>
-                        <td><img src="img/partenaires/applets.png" width="90%"></td>
-                        <td><img src="img/partenaires/aeets.png" width="50%"></td>
-                        <td><img src="img/partenaires/bell.png" width="40%"></td>
+                        <td><a href=""><img src="img/partenaires/applets.png" width="90%"></a></td>
+                        <td><a href=""><img src="img/partenaires/aeets.png" width="50%"></a></td>
+                        <td><a href=""><img src="img/partenaires/bell.png" width="40%"></a></td>
                     </tr>
                 </table>
 
-            </div>
-        </div>
-    </aside>
-    <section id="last">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h1 class="margin-top-0 wow text-primary fadeIn">Contactez-nous</h1>
-                    <hr class="primary">
-                    <p>Merci de nous laisser un message</p>
-                </div>
-                <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <form class="contact-form row">
-                        <div class="col-md-4">
-                            <label></label>
-                            <input type="text" class="form-control" placeholder="Name">
-                        </div>
-                        <div class="col-md-4">
-                            <label></label>
-                            <input type="text" class="form-control" placeholder="Email">
-                        </div>
-                        <div class="col-md-4">
-                            <label></label>
-                            <input type="text" class="form-control" placeholder="Phone">
-                        </div>
-                        <div class="col-md-12">
-                            <label></label>
-                            <textarea class="form-control" rows="9" placeholder="Your message here.."></textarea>
-                        </div>
-                        <div class="col-md-4 col-md-offset-4">
-                            <label></label>
-                            <button type="button" data-toggle="modal" data-target="#alertModal" class="btn btn-primary btn-block btn-lg">Send <i class="ion-android-arrow-forward"></i></button>
-                        </div>
-                    </form>
-                </div>
             </div>
         </div>
     </section>
@@ -316,13 +293,13 @@
 
                 <div class="pull-right">
                     <ul class="list-inline">
-                      <li><a rel="nofollow" href="www.twitter.com/clubapplets" title="Twitter"><i class="icon-lg ion-social-twitter-outline"></i></a>&nbsp;</li>
+                      <li><a rel="nofollow" href="https://www.youtube.com/channel/UCObRzDT1fpP81NZpbXxni1Q" title="Youtube"><i class="icon-lg ion-social-youtube-outline"></i></a>&nbsp;</li>
                       <li><a rel="nofollow" href="www.facebook.com/ClubApplETS" title="Facebook"><i class="icon-lg ion-social-facebook-outline"></i></a>&nbsp;</li>
                     </ul>
                 </div>
             </div>
             <br/>
-            <div id="copiright"><span class="text-muted small"><a href="https://clubapplets.ca/">ApplETS - Ecole de technologie supérieure</a> ©2015</span></div>
+            <div id="copiright"><span class="text-muted small"><a href="https://clubapplets.ca/">ApplETS - Ecole de technologies superieur</a> ©2015 Company</span></div>
         </div>
     </footer>
     <div id="galleryModal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
@@ -344,44 +321,46 @@
         	<div class="modal-body">
         		<h2 class="text-center">AMC</h2>
         		<h5 class="text-center">
-        		    ApplETS Mobile Challenge
+        		    Applet Mobile Challenge
         		</h5>
+                <hr class="primary">
         		<p class="text-justify">
-                    Utque proeliorum periti rectores primo catervas densas opponunt et fortes, deinde leves armaturas,
-                    post iaculatores ultimasque subsidiales acies, si fors adegerit, iuvaturas, ita praepositis urbanae
-                    familiae suspensae digerentibus sollicite, quos insignes faciunt virgae dexteris aptatae velut
-                    tessera data castrensi iuxta vehiculi frontem omne textrinum incedit: huic atratum coquinae iungitur
-                    ministerium, dein totum promiscue servitium cum otiosis plebeiis de vicinitate coniunctis: postrema
-        		</p>
-                <p class="text-justify">
-                    Utque proeliorum periti rectores primo catervas densas opponunt et fortes, deinde leves armaturas,
-                    post iaculatores ultimasque subsidiales acies, si fors adegerit, iuvaturas, ita praepositis urbanae
-                    familiae suspensae digerentibus sollicite, quos insignes faciunt virgae dexteris aptatae velut
-                    tessera data castrensi iuxta vehiculi frontem omne textrinum incedit: huic atratum coquinae iungitur
-                    ministerium, dein totum promiscue servitium cum otiosis plebeiis de vicinitate coniunctis: postrema
+                    L'ApplETS Mobile Chalenge (AMC) est une compétition organisée par le club étudiant ApplETS de l' école des technologies supérieures.
+                    Elle a été créée dans le but de promouvoir le développement d'application mobile et l'utilisation de l'open source. L'AMC met en
+                    compétition des équipes venant de plusieurs écoles (CEGEP, College, Université) et du monde professionnel.
+                    Tous étant dans des catégories en adéquation avec leur niveau de compétence. <br>
+                    L'AMC dure un week-end durant lequel il y aura des conférences faites par des professionnels du métier,
+                    qui viennent nous parler des  différentes technologies qu'ils utilisent dans leur emploi. Pendant ce
+                    week-end, il ya du réseautage, car, l'évènement est aussi destiné à mettre en relation le monde
+                    professionnel avec celui des étudiants.
                 </p>
         	</div>
         </div>
         </div>
     </div>
-    <div id="alertModal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+    <div id="contact" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog modal-sm">
         <div class="modal-content">
         	<div class="modal-body">
-        		<h2 class="text-center">Nice Job!</h2>
-        		<p class="text-center">You clicked the button, but it doesn't actually go anywhere because this is only a demo.</p>
-        		<p class="text-center"><a href="http://www.bootstrapzero.com">Learn more at BootstrapZero</a></p>
-        		<br/>
-        		<button class="btn btn-primary btn-lg center-block" data-dismiss="modal" aria-hidden="true">OK <i class="ion-android-close"></i></button>
+        		<h2 class="text-center">Contactez-nous</h2>
+                <hr class="primary">
+                <dl>
+                    <dt>Telephone</dt>
+                    <dd>514-333-2456 (687)</dd>
+                    <dt>Email</dt>
+                    <dd>amccompetition@gmail.com</dd>
+                    <dt>Adresse</dt>
+                    <dd>1100 rue Notre Dame Ouest</dd>
+                </dl>
         	</div>
         </div>
         </div>
     </div>
     <!--scripts loaded here from cdn for performance -->
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
     <script src="js/flipclock.min.js"></script>
     <script src="js/scripts.js"></script>
   </body>

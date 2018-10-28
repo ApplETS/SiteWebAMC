@@ -8,6 +8,7 @@ http://www.bootstrapzero.com
 @import url(https://fonts.googleapis.com/css?family=Questrial);
 @import url(http://fonts.googleapis.com/css?family=Dancing+Script:700);
 
+
 html,
 body {
     width: 100%;
@@ -261,6 +262,11 @@ header .header-content .inner p {
     color: rgba(255,255,255,0.7);
 }
 
+header .inner{
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 30px;
+}
+
 #logo{ margin-left: 15%; }
 
 #video-background {
@@ -277,6 +283,23 @@ header .header-content .inner p {
 #video-background.collapsing {
   display:none;
 }
+
+.bloc-circle{
+    text-align: center;
+}
+#four .circle{
+    background-color: white;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    vertical-align: middle;
+    font-size: 2em;
+    padding-top: 30%;
+    color: #222;
+    font-weight: bold;
+    margin-left: 7% !important;
+}
+
 
 footer {
     background-color:#2d2d2d;
@@ -303,7 +326,7 @@ footer {
     header .header-content .inner {
         margin-right: auto;
         margin-left: auto;
-        max-width: 1000px;
+        max-width: 750px;
     }
 
     header .header-content .inner h1 {
@@ -422,15 +445,6 @@ textarea {
 .no-gutter > [class*=col-] {
     padding-right: 0;
     padding-left: 0;
-}
-
-/** contact **/
-#last{
-    background-image: url('../img/background_bleu.jpg');
-}
-/** footer **/
-#copiright{
-    text-align: center;
 }
 
 .btn-default {

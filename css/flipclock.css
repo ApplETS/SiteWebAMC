@@ -1,8 +1,8 @@
 /* Get the bourbon mixin from http://bourbon.io */
 /* Reset */
-#clock{
+/*#clock{
   margin-left: 17%;
-}
+}*/
 .flip-clock-wrapper * {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -52,9 +52,7 @@
 
 .flip-clock-wrapper {
   text-align: center;
-  position: relative;
-  width: 100%;
-  margin: 1em;
+  display: inline-block;
 }
 
 .flip-clock-wrapper:before,
