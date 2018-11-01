@@ -43,7 +43,7 @@
             }
         }
     });
-    var dateFin = new Date('2018-02-20 00:00:00');
+    var dateFin = new Date('2019-02-07 00:00:00');
     var dateNow = new Date();
 
     clock.setTime(dateDiff(dateNow, dateFin));
@@ -69,7 +69,9 @@ function dateDiff(date1, date2){
     tmp = Math.floor((tmp-diff.hour)/24);   // Nombre de jours restants
     diff.day = tmp;
 
-    totalSec = diff.sec + (diff.min * 60) + (diff.hour * 60 * 60) + (diff.day * 24 * 60 * 60);
+    totalSec = diff.sec + (diff.min * 60) + (diff.hour * 60 * 60) + (diff.day * 24 * 60 * 60); //??
 
     return totalSec;
+	
+	//return diff;
 }
