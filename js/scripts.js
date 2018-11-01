@@ -30,7 +30,10 @@
     $('#galleryModal').on('show.bs.modal', function (e) {
        $('#galleryImage').attr("src",$(e.relatedTarget).data("src"));
     });
+	
 
+	
+	
     //compte a rebour
     var clock = $('.clock').FlipClock({
         clockFace: 'DailyCounter',
@@ -39,16 +42,27 @@
             stop: function() {
                 $('.clock').hide();
                 $('#titre-clock').hide();
-                $('.message').html('LE AMC EST LANCE')
+                $('.message').html("L'AMC EST LANCE")
             }
         }
     });
-    var dateFin = new Date('2019-02-07 00:00:00');
-    var dateNow = new Date();
 
+	var dateFin = new Date('2019-03-01 00:00:00');
+    var dateNow = new Date();
     clock.setTime(dateDiff(dateNow, dateFin));
     clock.setCountdown(true);
-    clock.start();
+	if(dateNow > new Date('2019-03-04 00:00:00')){
+		$('.clock').hide();
+        $('#titre-clock').hide();
+		$('.message').html("L'AMC passe")
+	}else if(dateNow <= new Date('2019-03-03 15:15:00') && dateNow >= dateFin ){
+		$('.clock').hide();
+        $('#titre-clock').hide();
+		$('.message').html("L'AMC EST LANCE")
+	}
+	else{
+		clock.start();
+	}
     /****/
 
 })(jQuery);
