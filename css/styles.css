@@ -22,20 +22,11 @@ body {
     webkit-tap-highlight-color: #222;
 }
 
-hr {
-    max-width: 80px;
-    border-width: 3px;
-    opacity: 0.09;
-    margin-top: 15px;
-    margin-bottom: 15px;
-}
 
-hr.light {
-    border-color: #fff;
-}
 
 a {
-    color: #9c27b0;
+    /*color: #9c27b0;*/
+	color: #162CA0;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -43,7 +34,8 @@ a {
 
 a:hover,
 a:focus {
-    color: #9c27c1;
+    /*color: #9c27c1;*/
+	color: #162CA0;
     outline: 0;
 }
 
@@ -67,7 +59,8 @@ p {
 }
 
 .bg-primary {
-    background-color: #333;
+	background-color: #C2C3C9;
+    color: #333;
 }
 
 .bg-dark {
@@ -89,7 +82,9 @@ p {
 }
 
 .text-primary {
-    color: #9c27b0;
+    /*color: #9c27b0;*/
+	font-family: cambria;
+	color: #162CA0;
 }
 
 .modal-content {
@@ -152,12 +147,13 @@ footer {
 
 .navbar-default .nav > li>a:hover,
 .navbar-default .nav>li>a:focus:hover {
-    color: #9c27b0;
+    /*color: #9c27b0;*/
+	color: #162CA0;
 }
 
 .navbar-default .nav > li.active>a,
 .navbar-default .nav>li.active>a:focus {
-    color: #9c27b0 !important;
+    color: #162CA0 !important;
     background-color: transparent;
 }
 
@@ -223,7 +219,7 @@ footer {
 
     .navbar-default.affix .nav > li>a:hover,
     .navbar-default.affix .nav>li>a:focus:hover {
-        color: #9c27b0;
+        color: #162CA0;
     }
 }
 
@@ -302,7 +298,10 @@ header .inner{
 
 
 footer {
-    background-color:#2d2d2d;
+    /*background-color:#2d2d2d;*/
+	background-color:#ffffff;
+	text-align : center;
+	font-size: 1.3em;
 }
 
 @media(min-width:768px) {
@@ -534,7 +533,7 @@ fieldset[disabled] .btn-default.active {
 
 ::selection {
     text-shadow: none;
-    color: #fff;
+    color: #333;
     background: #222;
 }
 
