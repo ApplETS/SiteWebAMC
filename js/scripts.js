@@ -42,23 +42,24 @@
             stop: function() {
                 $('.clock').hide();
                 $('#titre-clock').hide();
-                $('.message').html("L'AMC EST LANCE")
+                $('.message').html("L'AMC EST LANCÉ")
             }
         }
     });
 
 	var dateFin = new Date('2019-03-01 00:00:00');
-    var dateNow = new Date();
+    var dateNow = new Date('2018-11-22 00:00:00');
+	
     clock.setTime(dateDiff(dateNow, dateFin));
     clock.setCountdown(true);
 	if(dateNow > new Date('2019-03-04 00:00:00')){
 		$('.clock').hide();
         $('#titre-clock').hide();
-		$('.message').html("L'AMC passe")
+		$('.message').html("L'AMC EST PASSÉ")
 	}else if(dateNow <= new Date('2019-03-03 15:15:00') && dateNow >= dateFin ){
 		$('.clock').hide();
         $('#titre-clock').hide();
-		$('.message').html("L'AMC EST LANCE")
+		$('.message').html("L'AMC EST LANCÉ")
 	}
 	else{
 		clock.start();
