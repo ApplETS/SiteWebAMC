@@ -48,7 +48,7 @@
     });
 
 	var dateFin = new Date('2019-03-01 00:00:00');
-    var dateNow = new Date('2018-11-22 00:00:00');
+    var dateNow = new Date();
 	
     clock.setTime(dateDiff(dateNow, dateFin));
     clock.setCountdown(true);
