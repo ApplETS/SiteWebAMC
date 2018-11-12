@@ -85,8 +85,15 @@ p {
 
 .text-primary {
     /*color: #0066ff;*/
-	font-family: cambria;
-	color: #162CA0;
+	/*font-family: cambria;*/
+	color: #FF0000;
+}
+
+/*Title of modal window*/
+h2.text-center {
+    /*color: #0066ff;*/
+	/*font-family: cambria;*/
+	color: #FF0000;
 }
 
 .modal-content {
@@ -155,7 +162,7 @@ footer {
 
 .navbar-default .nav > li.active>a,
 .navbar-default .nav>li.active>a:focus {
-    color: #0066ff !important;
+    color: #FF0000 !important;
     background-color: transparent;
 }
 
@@ -203,7 +210,7 @@ footer {
 
     .navbar-default.affix .navbar-header .navbar-brand:not(.page-scroll) {
         font-size: 15px;
-        color: #9c27b0;
+        color:#FF0000;
         padding: 20px;
         letter-spacing: 1px;
     }
