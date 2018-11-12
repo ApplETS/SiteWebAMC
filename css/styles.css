@@ -103,6 +103,10 @@ h3 {
 	color: #000000;
 }
 
+h1.subSection {
+	color: #000000;
+}
+
 .modal-content {
     background-color: #1d1d1d;
 }
