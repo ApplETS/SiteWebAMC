@@ -96,6 +96,13 @@ h2.text-center {
 	color: #FF0000;
 }
 
+/*Title of objectives*/
+h3 {
+    /*color: #0066ff;*/
+	/*font-family: cambria;*/
+	color: #000000;
+}
+
 .modal-content {
     background-color: #1d1d1d;
 }
