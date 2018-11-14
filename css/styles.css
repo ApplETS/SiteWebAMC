@@ -363,6 +363,15 @@ footer {
         min-height: 600px;
         padding: 100px 0;
     }
+	
+	section iframe {
+		max-height: 600px;
+		padding: 0px 0;
+	}
+	
+	section#googleMap {
+		padding: 0px;
+	}
 
 }
 
@@ -565,4 +574,19 @@ img::selection {
 img::-moz-selection {
     color: #fff;
     background: 0 0;
+}
+
+
+.responsive-map{
+	overflow: hidden;
+	
+	position:relative;
+	min-height:600px;
+}
+.responsive-map iframe{
+	left:0;
+	width:100%;
+	max-height:600px;
+	bottom: 0;
+	position:absolute;
 }
