@@ -23,6 +23,18 @@ body {
     webkit-tap-highlight-color: #222;
 }
 
+#seeMore .modal-dialog{
+      overflow-y: initial !important
+}
+#seeMore .modal-content{
+      
+  min-width: 700px;
+}
+#seeMore .modal-body{
+  height: 500px;
+  overflow-y: auto;
+}
+
 /***************** FAQ section START *************************/
 #faq .panel-group {
   margin-top: 32px;
@@ -198,7 +210,7 @@ footer .alignement {
 
 .navbar-header > .navbar-brand {
     font-family: 'Questrial','Helvetica Neue',Arial,sans-serif;
-    color: #9c27b0;
+    color: #ff0000;
     padding: 15px;
     -webkit-transition: padding .2s ease-in;
     -moz-transition: padding .2s ease-in;
