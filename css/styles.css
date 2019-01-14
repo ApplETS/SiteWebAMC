@@ -18,7 +18,7 @@ body {
     font-family: 'Questrial','Helvetica Neue',Arial,sans-serif;	  
     background-color: #ffffff;	
     color: #d3d3d3;	
-	webkit-tap-highlight-color: #222;
+/*webkit-tap-highlight-color: #222;*/
 }
 
 #seeMore .modal-dialog{
@@ -398,6 +398,10 @@ header .inner{
 
 @media(min-width:768px) {
     .icon-lg {
+        font-size: 50px;
+		color: #222;
+    }
+	.icon-sm {
         font-size: 50px;
 		color: #222;
     }
