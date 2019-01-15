@@ -1,0 +1,38 @@
+{
+    "meta_description": "Inter-cegep and inter-university mobile development competition",
+    "html_title": "App|ÉTS Mobile Challenge",
+    "nav_toggle": "Toggle navigation",
+    "title_short": "AMC",
+    "title_long": "~ App|ÉTS Mobile Challenge ~",
+    "menu": {
+        "what_is_amc": "What is the AMC?",
+        "objective": "Our objectives",
+        "previously": "Previously",
+        "schedule": "Schedule",
+        "faq": "FAQ",
+        "sponsors": "Sponsors"
+    },
+    "title_clock": "Next competition in",
+    "date_address": "March 8-10 2019 @ École de technologie supérieure | 1100 rue Notre-dame Ouest",
+    "browser_not_supported": "Your browser does not support the video tag. I suggest you upgrade your browser.",
+    "intro_amc": "The App|ÉTS Mobile Chalenge (AMC) is a competition organized by the school club members of App|ÉTS from École de Technologie Supérieure (ÉTS). The competition was created to promote open source mobile application development. The AMC welcomes different teams from various schools (CEGEP, College, University) and from various parts of the world. Each challenge will be categorized by every teams skill level.",
+    "more_modal_link": "See more",
+    "subcategory":{
+        "competition":{
+            "title": "Competition",
+            "text": "The AMC brings the joy of the competition such as fair-play and teamwork"
+        },
+        "fun":{
+            "title": "Fun",
+            "text": "The participants and the organizers must enjoy themselves while having a good time"
+        },
+        "teamwork":{
+            "title": "Teamwork",
+            "text": "The participants must be in groups in order to favor teamwork"
+        }
+    },
+    "more_images": "Few images below...",
+    "schedule_text": "Below is the scheduled events for the competition",
+    "coming_soon": "Coming Soon..."
+
+}

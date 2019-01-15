@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="EN">
   <head>
     <meta charset="utf-8">
     <title>App|ÉTS Mobile Challenge</title>
@@ -19,7 +19,7 @@
         <div class="container-fluid">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar">
-                    <span class="sr-only">Toggle navigation</span>
+                    <span class="sr-only nav_toggle">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
@@ -33,22 +33,22 @@
             <div class="navbar-collapse collapse" id="bs-navbar">
                 <ul class="nav navbar-nav">
                     <li>
-                        <a class="page-scroll" href="#one">What is the AMC?</a>
+                        <a class="page-scroll what_is_amc" href="#one">What is the AMC?</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#two">Our objectives</a>
+                        <a class="page-scroll objective" href="#two">Our objectives</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#three">Previously</a>
+                        <a class="page-scroll previously" href="#three">Previously</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#four">Schedule</a>
+                        <a class="page-scroll schedule" href="#four">Schedule</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#faq">FAQ</a>
+                        <a class="page-scroll faq" href="#faq">FAQ</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#last">Sponsors</a>
+                        <a class="page-scroll sponsors" href="#last">Sponsors</a>
                     </li>
 
                 </ul>
@@ -59,16 +59,16 @@
     <header id="first">
         <div class="header-content">
             <div class="inner">
-                <h1>AMC</h1>
-                <h1>~ App|ÉTS Mobile Chalenge ~</h1>
-                <h2 id="titre-clock">Next competition in</h2>
+                <h1 class="title_short">AMC</h1>
+                <h1 class="title_long">~ App|ÉTS Mobile Challenge ~</h1>
+                <h2 id="titre-clock" class="title_clock">Next competition in</h2>
                 <div id="clock">
 
                     <div class="clock" style="margin:2em;"></div>
                     <h1 class="message"></h1>
                 </div>
 				
-				<h4>March 8-10 2019 @ École de technologie supérieure | 1100 rue Notre-dame Ouest</h4>
+				<h4 class="date_address">March 8-10 2019 @ École de technologie supérieure | 1100 rue Notre-dame Ouest</h4>
             
                 <!-- a href="#video-background" id="toggleVideo" data-toggle="collapse" class="btn btn-primary btn-xl">Toggle Video</a> &nbsp;
                 <a href="#one" class="btn btn-primary btn-xl page-scroll">Commencer</a-->
@@ -77,7 +77,7 @@
 
         </div>
         <video autoplay="" loop="" class="fillWidth fadeIn wow collapse in" data-wow-delay="0.5s" poster="img/Background_bleu.jpg" id="video-background" muted>
-            <source src="img/video.mp4" type="video/mp4">Your browser does not support the video tag. I suggest you upgrade your browser.
+            <source src="img/video.mp4" type="video/mp4"><span class="browser_not_supported">Your browser does not support the video tag. I suggest you upgrade your browser.</span>
         </video>
     </header>
 
@@ -85,14 +85,14 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 text-center">
-                    <h1 class="margin-top-0 text-primary">What is the AMC?</h1>
+                    <h1 class="margin-top-0 text-primary what_is_amc">What is the AMC?</h1>
                     <br>  <br/>
-                    <p class="text-faded">
+                    <p class="text-faded intro_amc">
                         The App|ÉTS Mobile Chalenge (AMC) is a competition organized by the school club members of App|ÉTS from École de Technologie Supérieure (ÉTS).
 						The competition was created to promote open source mobile application development. The AMC welcomes different teams from various schools (CEGEP, 
 						College, University) and from various parts of the world. Each challenge will be categorized by every teams skill level.
                     </p>
-                    <a class="btn btn-default btn-xl page-scroll" data-toggle="modal" title="A free Bootstrap video landing theme" href="#aboutModal">See More</a>
+                    <a class="btn btn-default btn-xl page-scroll more_modal" data-toggle="modal" title="A free Bootstrap video landing theme" href="#aboutModal">See More</a>
                 </div>
             </div>
 			 <br/> <br/>
@@ -103,7 +103,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h1 class="margin-top-0 text-primary">Our objectives</h1>             
+                    <h1 class="margin-top-0 text-primary objective">Our objectives</h1>
                 </div>
             </div>		
 			 <br/> <br/>
@@ -113,24 +113,24 @@
                 <div class="col-lg-4 col-md-4 text-center">
                     <div class="feature">
                         <i class="icon-lg ion-android-laptop wow fadeIn" data-wow-delay=".3s"></i>
-                        <h3>Competition</h3>
-                        <p class="text-muted">The AMC brings the joy of the competition such as fair-play and teamwork</p>
+                        <h3 class="title_competition">Competition</h3>
+                        <p class="text-muted text_competition">The AMC brings the joy of the competition such as fair-play and teamwork</p>
                     </div>
 					 <br/>
                 </div>
                 <div class="col-lg-4 col-md-4 text-center">
                     <div class="feature">
                         <i class="icon-lg ion-ios-star-outline wow fadeInUp" data-wow-delay=".2s"></i>
-                        <h3>Fun</h3>
-                        <p class="text-muted">The participants and the organizers must enjoy themselves while having a good time</p>
+                        <h3 class="title_fun">Fun</h3>
+                        <p class="text-muted text_fun">The participants and the organizers must enjoy themselves while having a good time</p>
                     </div>
 					 <br/>
                 </div>
                 <div class="col-lg-4 col-md-4 text-center">
                     <div class="feature">
                         <i class="icon-lg ion-person-stalker wow fadeIn" data-wow-delay=".3s"></i>
-                        <h3>Teamwork</h3>
-                        <p class="text-muted">The participants must be in groups in order to favor teamwork</p>
+                        <h3 class="title_teamwork">Teamwork</h3>
+                        <p class="text-muted text_teamwork">The participants must be in groups in order to favor teamwork</p>
                     </div>
 					 <br/>
                 </div>
@@ -142,9 +142,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center text-muted">
-                    <h1 class="margin-top-0 text-primary">Previously</h1>
+                    <h1 class="margin-top-0 text-primary previously">Previously</h1>
                      <br/>
-                    <p class="text-muted" > Few images below ... </p>
+                    <p class="text-muted more_images"> Few images below ... </p>
                 </div>
             </div>
         </div>
@@ -229,14 +229,14 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h1 class="margin-top-0 text-primary fadeIn wow">Schedule</h1>
-                    <p class="text-muted"> Below is the scheduled events for the competition </p>
+                    <h1 class="margin-top-0 text-primary fadeIn wow schedule">Schedule</h1>
+                    <p class="text-muted schedule_text"> Below is the scheduled events for the competition </p>
                 </div>
             </div>
 			 <br/>
         </div>
         <div class="row">
-		<center> <h1>Coming Soon...</h1> </center>
+		<center> <h1 class="coming_soon">Coming Soon...</h1> </center>
 			<div class="table-responsive col-lg-12 text-center" >
 				<!--<h1 class="subSection">Coming Soon...</h1>
 				<!--<table class="table table-hover table-condensed text-muted">
