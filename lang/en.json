@@ -33,6 +33,61 @@
     },
     "more_images": "Few images below...",
     "schedule_text": "Below is the scheduled events for the competition",
-    "coming_soon": "Coming Soon..."
-
+    "coming_soon": "Coming Soon...",
+    "faq" :{
+        "anwser_here": "We answer to your questions here!",
+        "what_is_hackathon": "What is a hackathon?",
+        "what_is_hackathon_anwser": {
+            "first": "A hackathon is a weekend long event to meet smart creative people, make connections, learn, and build something awesome!",
+            "second": "Attendes meet on Friday, make a team, and have 36 hours to build a tech-related project.",
+            "third": "There will be optional lessons and talks, sponsors looking to hire smart, motivated people, and tons of free stuff! There is also a Code of Conduct."
+        },
+        "is_there_a_theme": "Is there a theme?",
+        "is_there_a_theme_anwser": "The AMC aims to bring a new and refreshing theme every year to attract a variety of students and projects. The theme of this year will be unveiled at the place.",
+        "am_i_eligible": "Am I eligible to participate?",
+        "am_i_eligible_anwser": "Any post-secondary students are eligible to participate in our event!",
+        "what_if_new_to_code": "What if I don’t know how to code?",
+        "what_if_new_to_code_anwser": "No need to worry! We’ll be running workshops to help beginners learn new technologies and get you started. We’ll also have mentors on hand to help you out in the process.",
+        "no_team_or_idea": "I don’t have a team or an idea. Can I still participate?",
+        "no_team_or_idea_anwser": "Of course! We have team building and design thinking workshops planned to help get your creative juices flowing.",
+        "how_to_apply": "How do I apply?",
+        "how_to_apply_anwser": "Applications will open in January 2019. Make sure to subscribe to our mailing list to be the first to know when registration opens!",
+        "under_eighteen": "I'm under 18 years of age, can I attend?",
+        "under_eighteen_anwser": "If you’re enrolled in high school, we’d still love to have you! We’ll have forms closer to the event date that we’ll need you to fill out to make sure you’re all good to hack.",
+        "how_to_get_there": "How can I get there?",
+        "how_to_get_there_anwser": "The location of the event is easily accessible by public transport. It is close to Bonaventure Metro. Once at metro Bonaventure, you will have 7 minutes walk to get there. You’re also more than welcome to drive!",
+        "is_there_travel_reimbursement": "Is there travel reimbursement?",
+        "is_there_travel_reimbursement_anwser": "Unfortunately, we will not be covering travel reimbursements at this time.",
+        "how_much_cost": "How much does it cost?",
+        "how_much_cost_anwser": "Zero. Zilch. Nada. Thanks to our generous sponsors, the entire event is free!",
+        "what_to_bring": "What should I bring?",
+        "what_to_bring_anwser": "Bring a student ID, laptop + charger, and personal items (clothing, hygiene products, etc.)",
+        "where_to_sleep": "Where will I sleep?",
+        "where_to_sleep_anwser": "We will not have dedicated sleeping areas for hackers, but bring a sleeping bag if you can!",
+        "how_to_help": "How can I help?",
+        "how_to_help_anwser": {
+            "first": "We would love to have you be a volunteer or a mentor! AMC can only be more successful with as many volunteers and mentors who want to help with the event.",
+            "second": "Feel free to write us at",
+            "third": "if you are interesting to be a mentor or a volunteer."
+        },
+        "cant_find_question": "I can’t find my question here.",
+        "cant_find_question_anwser": "No problem! Feel free to send us a message at"
+    },
+    "our_sponsors": "Our sponsors",
+    "our_sponsors_text": {
+        "first": "The AMC was brought to you by the following sponsors.",
+        "second": "Interested in sponsoring the AMC?",
+        "third": "Send us an email at",
+        "fourth": "for more details."
+    },
+    "contact_us": "Contact us",
+    "about": "About",
+    "copyright": "<span>Copyright © 2018 <a href=\"https://clubapplets.ca/\">App|ÉTS</a> </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
+    "code_of_conduct": "<span> <a href=\"https://static.mlh.io/docs/mlh-code-of-conduct.pdf\"> Code of conduct MLH </a></span>",
+    "close": "Close",
+    "about_modal_text": {
+        "first": "The App|ÉTS Mobile Chalenge (AMC) is a competition organized by the school club members of App|ÉTS from École de Technologie Supérieure (ÉTS). The competition was created to promote open source mobile application development. The AMC welcomes different teams from various schools (CEGEP, College, University) and from various parts of the world. Each challenge will be categorized by every teams skill level.",
+        "second": "The AMC lasts a weekend of 3 days, during which conferences will be held by professionals of open source mobile development, who will share their knowledge of various technologies they have used. During this weekend, there will also be networking between the everyone, because the event is also made for students and professionals to meet and greet each other."
+    }
+    
 }

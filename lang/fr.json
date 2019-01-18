@@ -15,7 +15,7 @@
     "title_clock": "Prochaine compétition dans",
     "date_address": "Mars 8-10 2019 @ École de technologie supérieure | 1100 rue Notre-dame Ouest",
     "browser_not_supported": "Votre navigateur ne supporte pas la lecture du video. On vous suggère de mettre à jour votre navigateur.",
-    "intro_amc": "L'App|ÉTS Mobile Challenge (AMC) est une compétition organisée par le club étudiant App|ÉTS de l' école des technologies supérieures. Elle a été créée dans le but de promouvoir le développement d'application mobile et l'utilisation de l'open source. L'AMC met en compétition des équipes venant de plusieurs écoles (CEGEP, College, Université) et du monde professionnel. Tous étant dans des catégories en adéquation avec leur niveau de compétence.",
+    "intro_amc": "L'App|ÉTS Mobile Challenge (AMC) est une compétition organisée par le club étudiant App|ÉTS de l'école des technologies supérieures. Elle a été créée dans le but de promouvoir le développement d'application mobile et l'utilisation de l'open source. L'AMC met en compétition des équipes venant de plusieurs écoles (CEGEP, College, Université) et du monde professionnel. Tous étant dans des catégories en adéquation avec leur niveau de compétence.",
     "more_modal_link": "Voir plus",
     "subcategory":{
         "competition": {
@@ -33,5 +33,60 @@
     },
     "more_images": "Quelques images plus bas...",
     "schedule_text": "Événements de compétitions planifiés plus bas",
-    "coming_soon": "À venir..."
+    "coming_soon": "À venir...",
+    "faq" :{
+        "anwser_here": "On répond à vos questions ici!",
+        "what_is_hackathon": "Qu'est-ce qu'un hackathon?",
+        "what_is_hackathon_anwser": {
+            "first": "Un hackathon est un événement pour rencontrer des gens créatifs, faire des connections, apprendre et batir quelque chose de super!",
+            "second": "Les participants vont se rencontrer le vendredi pour faire une équipe et auront 36 heures pour batir leur projet technologique.",
+            "third": "Il va y avoir des cours, conférences, commenditaires qui recherche des personnes motivées et des tonnes de trucs gratuits. Aussi, nous avons des codes de conduites."
+        },
+        "is_there_a_theme": "Est-ce qu'il y a un thème?",
+        "is_there_a_theme_anwser": "L'AMC vise à amener de nouvelles idées fraiches pour attirer une grande variété d'étudiants et de projets. Le thème de cette année sera révélé sur place.",
+        "am_i_eligible": "Est-ce que je suis éligible pour participer?",
+        "am_i_eligible_anwser": "Tout étudiant post-secondaire sont éligible de participer dans notre événement!",
+        "what_if_new_to_code": "Si je ne sais pas comment écrire du code?",
+        "what_if_new_to_code_anwser": "Il n'y a pas d'inquiétude! On a des ateliers pour aider les nouveaux à apprendre de nouvelles technologies et pour bien débuter. Aussi, on va avoir des mentors qui pourront vous aider.",
+        "no_team_or_idea": "Je n'ai pas d'équipe ou je n'ai pas d'idée. Est-ce que je peux quand même participer?",
+        "no_team_or_idea_anwser": "Bien sûr! On a des ateliers de travail d'équipe et de design thinking qui sont planifiés pour aider amorcer vos idées créatives.",
+        "how_to_apply": "Comment est-ce que je m'inscrit?",
+        "how_to_apply_anwser": "Les inscriptions seront ouvert le Janvier 2019. Inscrivez-vous a notre liste d'envoi courriel pour être le premier à savoir quand les inscriptions seront ouverts.",
+        "under_eighteen": "J'ai en dessous de 18. Est-ce que je peux participer?",
+        "under_eighteen_anwser": "Si vous êtes inscrit au secondaire, on aimerait bien vous avoir parmi nous. On aura des formulaire proche de la date du début que vous devrez remplique pour être sure que vous étre bien équiper pour hacker.",
+        "how_to_get_there": "Comment est-ce que je me rend sur les lieux?",
+        "how_to_get_there_anwser": "Le lieu de l'événement est facilement accéssible avec le transport en commun. Il est proche de la station Bonaventure. Dès arrivé à la station bonaventure, vous aurez 7 minutes de marche pour vous rendre sur les lieux. Vous êtes aussi invités à venir en voiture.",
+        "is_there_travel_reimbursement": "Est-ce que les frais de transports sont remboursés?",
+        "is_there_travel_reimbursement_anwser": "Désolé, nous ne couvront pas les frais de transport actuellement.",
+        "how_much_cost": "Ça coute combien?",
+        "how_much_cost_anwser": "Zero. Zilch. Nada. Grace à nos généreux commenditaires, l'événement est gratuit!",
+        "what_to_bring": "Qu'est-ce que je dois amener?",
+        "what_to_bring_anwser": "Vous devrez apporter une carte étudiante, ordinateur portable (avec chargeur) et vos effets personnels (vêtements, produit hygiénique, etc... ).",
+        "where_to_sleep": "Je vais dormir où?",
+        "where_to_sleep_anwser": "On a pas d'endroit dédié pour domir, mais amener votre sac de couchage si possible!",
+        "how_to_help": "Comment est-ce que je peux aider?",
+        "how_to_help_anwser": {
+            "first": "On aimerait bien vous avoir comme volontaire ou comme un mentor. Plus on aura de volontaires ou de mentors qui voudront aider pour l'événement, plus l'AMC aura du succès.",
+            "second": "N'hésiter pas à nous écrire au",
+            "third": "si vous êtes intéressé à devenir un mentor ou un volontaire."
+        },
+        "cant_find_question": "Je n'arrive pas à trouver ma question.",
+        "cant_find_question_anwser": "Pas de problème! N'hésitez pas à nous écrire au"
+    },
+    "our_sponsors": "Nos commenditaires",
+    "our_sponsors_text": {
+        "first": "L'AMC vous a été présenté par les commenditaires suivants.",
+        "second": "Intéressé de commenditer l'AMC?",
+        "third": "Écrivez nous un courriel au",
+        "fourth": "pour plus de détails."
+    },
+    "contact_us": "Contactez nous",
+    "about": "À propos",
+    "copyright": "<span>Copyright © 2018 <a href=\"https://clubapplets.ca/\">App|ÉTS</a> </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
+    "code_of_conduct": "<span> <a href=\"https://static.mlh.io/docs/mlh-code-of-conduct.pdf\"> Code de conduite MLH </a></span>",
+    "close": "Fermer",
+    "about_modal_text": {
+        "first": "L'App|ÉTS Mobile Challenge (AMC) est une compétition organisée par le club étudiant App|ÉTS de l'école des technologies supérieures. Elle a été créée dans le but de promouvoir le développement d'application mobile et l'utilisation de l'open source. L'AMC met en compétition des équipes venant de plusieurs écoles (CEGEP, College, Université) et du monde professionnel. Tous étant dans des catégories en adéquation avec leur niveau de compétence.",
+        "second": "L'AMC couvre un weekend de 3 jours. Il y aura des conférences présenté par des professionels du développement mobile à source libre. Ils vous partageront leurs connaissances sur divers technologies utilisé. Durant ce weekend, il va y avoir une possibilité de faire du réseautage car l'événement est fait pour promouvoir les rencontres entre les étudiants et les professionels."
+    }
 }

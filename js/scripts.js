@@ -76,6 +76,60 @@
         $("p.schedule_text").text(result.schedule_text);
 
         $("h1.coming_soon").text(result.coming_soon);
+
+        $("section#faq h1.faq").text(result.menu.faq);
+        $("section#faq .anwser_here").text(result.faq.anwser_here);
+        $("section#faq .what_is_hackathon a").text(result.faq.what_is_hackathon);
+        $("section#faq .is_there_a_theme a").text(result.faq.is_there_a_theme);
+        $("section#faq .am_i_eligible a").text(result.faq.am_i_eligible);
+        $("section#faq .no_team_or_idea a").text(result.faq.no_team_or_idea);
+        $("section#faq .how_to_apply a").text(result.faq.how_to_apply);
+        $("section#faq .under_eighteen a").text(result.faq.under_eighteen);
+        $("section#faq .how_to_get_there a").text(result.faq.how_to_get_there);
+        $("section#faq .is_there_travel_reimbursement a").text(result.faq.is_there_travel_reimbursement);
+        $("section#faq .how_much_cost a").text(result.faq.how_much_cost);
+        $("section#faq .what_to_bring a").text(result.faq.what_to_bring);
+        $("section#faq .where_to_sleep a").text(result.faq.where_to_sleep);
+        $("section#faq .how_to_help a").text(result.faq.how_to_help);
+        $("section#faq .cant_find_question a").text(result.faq.cant_find_question);
+        
+        
+        
+        $("section#faq .what_is_hackathon_anwser p span.first").text(result.faq.what_is_hackathon_anwser.first);
+        $("section#faq .what_is_hackathon_anwser p").text(result.faq.what_is_hackathon_anwser);
+        $("section#faq .what_is_hackathon_anwser p").text(result.faq.what_is_hackathon_anwser);
+        $("section#faq .is_there_a_theme_anwser p").text(result.faq.is_there_a_theme_anwser);
+        $("section#faq .am_i_eligible_anwser p").text(result.faq.am_i_eligible_anwser);
+        $("section#faq .what_if_new_to_code_anwser p").text(result.faq.am_i_eligible_anwser);
+        $("section#faq .no_team_or_idea_anwser p").text(result.faq.no_team_or_idea_anwser);
+        $("section#faq .how_to_apply_anwser p").text(result.faq.how_to_apply_anwser);
+        $("section#faq .under_eighteen_anwser p").text(result.faq.under_eighteen_anwser);
+        $("section#faq .how_to_get_there_anwser p").text(result.faq.how_to_get_there_anwser);
+        $("section#faq .is_there_travel_reimbursement_anwser p").text(result.faq.is_there_travel_reimbursement_anwser);
+        $("section#faq .how_much_cost_anwser p").text(result.faq.how_much_cost_anwser);
+        $("section#faq .what_to_bring_anwser p").text(result.faq.what_to_bring_anwser);
+        $("section#faq .where_to_sleep_anwser p").text(result.faq.where_to_sleep_anwser);
+        $("section#faq .how_to_help_anwser p span.first").text(result.faq.how_to_help_anwser.first);
+        $("section#faq .how_to_help_anwser p span.second").text(result.faq.how_to_help_anwser.second);
+        $("section#faq .how_to_help_anwser p span.third").text(result.faq.how_to_help_anwser.third);
+        $("section#faq .cant_find_question_anwser p span.first").text(result.faq.cant_find_question_anwser);
+
+
+
+        $("section#last h1.our_sponsors").text(result.our_sponsors);
+        $("section#last p.our_sponsors_text span.first").text(result.our_sponsors_text.first);
+        $("section#last p.our_sponsors_text span.second").text(result.our_sponsors_text.second);
+        $("section#last p.our_sponsors_text span.third").text(result.our_sponsors_text.third);
+        $("section#last p.our_sponsors_text span.fourth").text(result.our_sponsors_text.fourth);
+
+
+
+        $("footer#footer a.contact_us").text(result.contact_us);
+        $("footer#footer a.about").text(result.about);
+        $("footer#footer a.contact_us").text(result.contact_us);
+
+
+
     });
     console.log("Finish loading" + langCode)
 	
