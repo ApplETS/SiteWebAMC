@@ -82,12 +82,14 @@
     },
     "contact_us": "Contact us",
     "about": "About",
-    "copyright": "<span>Copyright © 2018 <a href=\"https://clubapplets.ca/\">App|ÉTS</a> </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
-    "code_of_conduct": "<span> <a href=\"https://static.mlh.io/docs/mlh-code-of-conduct.pdf\"> Code of conduct MLH </a></span>",
+    "copyright": "",
+    "code_of_conduct": "",
     "close": "Close",
     "about_modal_text": {
         "first": "The App|ÉTS Mobile Chalenge (AMC) is a competition organized by the school club members of App|ÉTS from École de Technologie Supérieure (ÉTS). The competition was created to promote open source mobile application development. The AMC welcomes different teams from various schools (CEGEP, College, University) and from various parts of the world. Each challenge will be categorized by every teams skill level.",
         "second": "The AMC lasts a weekend of 3 days, during which conferences will be held by professionals of open source mobile development, who will share their knowledge of various technologies they have used. During this weekend, there will also be networking between the everyone, because the event is also made for students and professionals to meet and greet each other."
-    }
-    
+    },
+    "phone": "Phone",
+    "email": "E-mail",
+    "address": "Address"
 }

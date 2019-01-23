@@ -82,11 +82,14 @@
     },
     "contact_us": "Contactez nous",
     "about": "À propos",
-    "copyright": "<span>Copyright © 2018 <a href=\"https://clubapplets.ca/\">App|ÉTS</a> </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
-    "code_of_conduct": "<span> <a href=\"https://static.mlh.io/docs/mlh-code-of-conduct.pdf\"> Code de conduite MLH </a></span>",
+    "copyright": "",
+    "code_of_conduct": "",
     "close": "Fermer",
     "about_modal_text": {
         "first": "L'App|ÉTS Mobile Challenge (AMC) est une compétition organisée par le club étudiant App|ÉTS de l'école des technologies supérieures. Elle a été créée dans le but de promouvoir le développement d'application mobile et l'utilisation de l'open source. L'AMC met en compétition des équipes venant de plusieurs écoles (CEGEP, College, Université) et du monde professionnel. Tous étant dans des catégories en adéquation avec leur niveau de compétence.",
         "second": "L'AMC couvre un weekend de 3 jours. Il y aura des conférences présenté par des professionels du développement mobile à source libre. Ils vous partageront leurs connaissances sur divers technologies utilisé. Durant ce weekend, il va y avoir une possibilité de faire du réseautage car l'événement est fait pour promouvoir les rencontres entre les étudiants et les professionels."
-    }
+    },
+    "phone": "Phone",
+    "email": "E-mail",
+    "address": "Address"
 }
